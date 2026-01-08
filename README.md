@@ -1,7 +1,7 @@
-### Document Assistant – RAG-based PDF Q&A
+## Document Assistant – RAG-based PDF Q&A
 A Retrieval-Augmented Generation (RAG) application that allows users to upload a PDF and ask questions about its content using local embeddings and Groq-hosted LLMs.
 
-## Features
+### Features
 Upload any PDF document
 
 Ask natural language questions
@@ -14,7 +14,7 @@ Uses Groq (LLaMA 3.1) for fast inference
 
 Built with LangChain + Streamlit
 
-## Architecture (High-level)
+### Architecture (High-level)
 
 PDF → Text Splitter → Embeddings → FAISS
                         ↓
@@ -23,7 +23,7 @@ PDF → Text Splitter → Embeddings → FAISS
               Retrieved Context + Question
                         ↓
                    Groq LLM Answer
-## Tech Stack
+### Tech Stack
 Python
 
 Streamlit
@@ -36,7 +36,7 @@ HuggingFace Sentence Transformers
 
 Groq LLaMA 3.1
 
-## Setup Instructions
+### Setup Instructions
 1. Clone the repo
 git clone https://github.com/SahiraAli/document-assistant.git
 cd document-assistant
